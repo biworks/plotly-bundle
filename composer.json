@@ -1,0 +1,32 @@
+{
+  "name": "biworks/plotly-bundle",
+  "type": "symfony-bundle",
+  "description": "This Bundle provides a Twig extension and PHP objects to display Plotly charts in your Symfony application.",
+  "keywords": [
+    "plotly",
+    "chart",
+    "charts",
+    "graph",
+    "graphs",
+    "map"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abdessamad Idrissi"
+    }
+  ],
+  "require": {
+    "php": "^5.6 || ^7.0",
+    "symfony/framework-bundle": "^2.7 || ^3.0 || ^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BIW\\PlotlyBundle\\": ""
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "friendsofphp/php-cs-fixer": "^2.9"
+  }
+}
